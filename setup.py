@@ -15,7 +15,6 @@ setup(
     author='Claudio Yacarini',
     author_email='cyacarinic@gmail.com',
     description='Django application, set urls per domain.',
-    license='GPL',
     packages=[
         'multidomain',
     ],
