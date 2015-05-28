@@ -73,6 +73,7 @@ It should create a folder ``themes`` at the project with the following structure
 
 
 **NOTE**: We use ''django-theming'' library to manage multiple teming.
+(https://github.com/achavezu89/django-theming)
 
 
 Contributing
