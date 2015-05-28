@@ -5,12 +5,11 @@ from os import path
 BASE = path.abspath(path.dirname(__file__))
 
 with open(path.join(BASE, 'README.rst'), encoding='utf-8') as f:
-    # long_description = f.read()
-    long_description = 'Django application, set urls per domain.'
+    long_description = f.read()
 
 setup(
     name='django-multidomain',
-    version='1.0',
+    version='1.1.2',
     url='https://github.com/cyacarinic/django-multidomain',
     author='Claudio Yacarini',
     author_email='cyacarinic@gmail.com',
@@ -34,5 +33,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Application Frameworks',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    keywords='django url domain host',
+    keywords='django url domain host multi',
 )
+
