@@ -6,7 +6,7 @@ Django application, implement multi domain concept. You can choose your url conf
 Installation
 ============
 
-You can install the most recent **Django Theming** version using pip: ::
+You can install the most recent **Django Multi Domain** version using pip: ::
 
     pip install django-multidomain
 
