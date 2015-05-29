@@ -9,7 +9,7 @@ with open(path.join(BASE, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django-multidomain',
-    version='1.1.2',
+    version='1.1.3',
     url='https://github.com/cyacarinic/django-multidomain',
     author='Claudio Yacarini',
     author_email='cyacarinic@gmail.com',
