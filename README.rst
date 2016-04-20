@@ -74,7 +74,7 @@ It should create the following structure: ::
 
 **NOTE**: We use ''django-theming'' library to manage multiple teming.
 (https://github.com/achavezu89/django-theming)
-**NOTE**: If you use reverse-proxy, please put to the 'settings.py' :
+**NOTE**: If you use reverse-proxy, please put to the 'settings.py' : ::
  
     USE_X_FORWARDED_HOST = True
 
