@@ -17,6 +17,9 @@ setup(
     packages=[
         'multidomain',
     ],
+    install_requires=[
+        'django-six'
+    ],
     include_package_data=True,
     long_description = long_description,
     classifiers=[

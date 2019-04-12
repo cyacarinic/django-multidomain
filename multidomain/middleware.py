@@ -1,7 +1,12 @@
-import re
-from django.conf import settings
+# -*- coding: utf-8 -*-
 
-class DomainMiddleware(object):
+import re
+
+from django.conf import settings
+from django_six import MiddlewareMixin
+
+
+class DomainMiddleware(MiddlewareMixin):
     def process_request(self, request):
         url_config = getattr(settings, 'URL_CONFIG', None)
         if url_config:
